@@ -102,7 +102,10 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
+<<<<<<< HEAD
     pg (1.2.1)
+=======
+>>>>>>> 580850198e5fe6495f9750422111ae1f346ba43a
     public_suffix (4.0.3)
     puma (4.3.1)
       nio4r (~> 2.0)
@@ -206,14 +209,21 @@ DEPENDENCIES
   capybara (>= 2.15)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
+<<<<<<< HEAD
   pg (>= 0.20.0)
+=======
+>>>>>>> 580850198e5fe6495f9750422111ae1f346ba43a
   puma (~> 4.1)
   rails (~> 6.0.2, >= 6.0.2.1)
   sass-rails (>= 6)
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
+<<<<<<< HEAD
   sqlite3 (>= 1.4)
+=======
+  sqlite3 (~> 1.4)
+>>>>>>> 580850198e5fe6495f9750422111ae1f346ba43a
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)
