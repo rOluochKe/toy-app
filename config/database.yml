@@ -20,6 +20,12 @@ test:
   <<: *default
   database: db/test.sqlite3
 
+# production:
+#   <<: *default
+#   database: db/production.sqlite3
+
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: toy_app_production
+  username: toy_app_admin
+  password: <%= ENV['TOY_APP_DATABASE_PASSWORD'] %>
